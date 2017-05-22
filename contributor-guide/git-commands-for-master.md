@@ -30,7 +30,7 @@ Follow the steps in this article to create a local working branch on your comput
         git commit –m "<comment>"
 8. Update your local working branch with changes from the upstream master branch:
    
-        git pull upstream master
+        git pull upstream master --no-edit
 9. Push the changes to your fork on GitHub:
    
         git push origin <working branch>
