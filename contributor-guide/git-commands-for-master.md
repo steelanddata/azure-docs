@@ -1,4 +1,4 @@
-# Git commands for creating a new article or updating an existing article
+ --no# Git commands for creating a new article or updating an existing article
 ## Standard process (working from master)
 Follow the steps in this article to create a local working branch on your computer so that you can create a new article for the Azure technical documentation section of docs.microsoft.com/azure or update an existing article.
 
@@ -30,7 +30,7 @@ Follow the steps in this article to create a local working branch on your comput
         git commit –m "<comment>"
 8. Update your local working branch with changes from the upstream master branch:
    
-        git pull upstream master
+        git pull upstream master --no-edit
 9. Push the changes to your fork on GitHub:
    
         git push origin <working branch>
